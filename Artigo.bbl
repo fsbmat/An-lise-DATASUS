@@ -1,0 +1,52 @@
+\begin{thebibliography}{1}
+
+\bibitem{zeroum}
+Homic\'idio \'e principal causa de mortes de jovens de 16 e 17 no pa\'is.
+\newblock
+  \url{http://g1.globo.com/politica/noticia/2015/06/homicidio-e-principal-causa-de-mortes-de-jovens-de-16-e-17-no-pais.html}.
+\newblock acessado em 11/11/2015.
+
+\bibitem{bilder2014analysis}
+C.~R. Bilder and T.~M. Loughin.
+\newblock {\em Analysis of categorical data with R}.
+\newblock CRC Press, 2014.
+
+\bibitem{da2015mapa}
+R.~F.~C. da~Trindade, F.~A. d. M.~M. Costa, G.~B. Caminiti, C.~B. dos Santos,
+  et~al.
+\newblock Mapa dos homic{\'\i}dios por arma de fogo: perfil das v{\'\i}timas e
+  das agress{\~o}es.
+\newblock {\em Revista da Escola de Enfermagem da USP}, 49(5):748--755, 2015.
+
+\bibitem{dobson2008introduction}
+A.~J. Dobson and A.~Barnett.
+\newblock {\em An introduction to generalized linear models}.
+\newblock CRC press, 2008.
+
+\bibitem{giovanni1985conquista}
+J.~R. Giovanni.
+\newblock {\em A conquista da matem{\'a}tica: teoria, aplica{\c{c}}{\~a}o, 6a.
+  s{\'e}rie}.
+\newblock FTD, 1985.
+
+\bibitem{hosmer81lemeshow}
+D.~W. Hosmer.
+\newblock Lemeshow. 1989. applied logistic regression.
+\newblock {\em Ed. John Wolfley y Sons}, pages 8--20, 81.
+
+\bibitem{paula2004modelos}
+G.~A. Paula.
+\newblock {\em Modelos de regress{\~a}o: com apoio computacional}.
+\newblock IME-USP S{\~a}o Paulo, 2004.
+
+\bibitem{softR}
+{R Core Team}.
+\newblock {\em R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria, 2015.
+
+\bibitem{Jacobo}
+J.~J. Waiselfisz.
+\newblock Mapa da viol{\^e}ncia 2015: adolescentes de 16 e 17 anos do brasil.
+\newblock 2015.
+
+\end{thebibliography}

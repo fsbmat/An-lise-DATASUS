@@ -1,0 +1,783 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.9)  11 SEP 2016 12:50
+entering extended mode
+**Artigo.tex
+(Artigo.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count90
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)) ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2015/08/03 3.9m The Babel package
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-portuges\portuges.ldf"
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2015/08/03 3.9m Babel common definitions
+\babel@savecnt=\count91
+\U@D=\dimen111
+)
+\l@brazil = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+)
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2015/09/20 v1.7-115 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen114
+\captionmargin@=\dimen115
+\captionwidth=\dimen116
+\caption@tempdima=\dimen117
+\caption@indent=\dimen118
+\caption@parindent=\dimen119
+\caption@hangindent=\dimen120
+)
+\c@ContinuedFloat=\count92
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip52
+\subfigcapskip=\skip53
+\subfigcaptopadj=\dimen121
+\subfigbottomskip=\skip54
+\subfigcapmargin=\dimen122
+\subfiglabelskip=\skip55
+\c@subfigure=\count93
+\c@lofdepth=\count94
+\c@subtable=\count95
+\c@lotdepth=\count96
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip56
+\subfig@bottom=\skip57
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pslatex\pslatex.sty"
+Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ptmcm/m/n on input line 65.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptmcm/m/n on input line 65.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ptmcm/m/it on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ptmcm/m/it on input line 66.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/pzccm/m/n on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/pzccm/m/n on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 68.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 74.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
+Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
+\MT@toks=\toks18
+\MT@count=\count97
+LaTeX Info: Redefining \textls on input line 766.
+\MT@outer@kern=\dimen123
+LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
+\MT@listname@count=\count98
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
+File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip58
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
+File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip59
+\bibsep=\skip60
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count99
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\dstroke\dsfont.sty"
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\Sweave\Sweave.sty"
+Package: Sweave 
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyvrb\fancyvrb.sty"
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix <2008/02/07> (tvz)
+\FV@CodeLineNo=\count100
+\FV@InFile=\read1
+\FV@TabBox=\box26
+\c@FancyVerbLine=\count101
+\FV@StepNumber=\count102
+\FV@OutFile=\write3
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ae\ae.sty"
+Package: ae 2001/02/12 1.3 Almost European Computer Modern
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+))))
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen124
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count103
+\float@exts=\toks19
+\float@box=\box27
+\@float@everytoks=\toks20
+\@floatcapt=\box28
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks21
+\verbatim@line=\toks22
+\verbatim@in@stream=\read2
+)
+(Artigo.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 27.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 27.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
+File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
+)
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 27.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 27.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count104
+\scratchdimen=\dimen125
+\scratchbox=\box29
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen126
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
+\everyMPtoPDFconversion=\toks24
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: subfigure package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \microtypecontext on input line 27.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 47.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `ptmcm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 47.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlptmcm.fd"
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 47.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxpsycm.fd"
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-ptm.cfg"
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
+ [1
+
+{C:/Users/fsbmat/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+LaTeX Font Info:    Try loading font information for T1+aett on input line 139.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `aett' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+<Figuras/fig1.jpeg, id=16, 843.15pt x 843.15pt>
+File: Figuras/fig1.jpeg Graphic file (type jpg)
+ <use Figuras/fig1.jpeg>
+Package pdftex.def Info: Figuras/fig1.jpeg used on input line 156.
+(pdftex.def)             Requested size: 142.26378pt x 142.2529pt.
+ <Figuras/fig2.jpeg, id=17, 843.15pt x 843.15pt>
+File: Figuras/fig2.jpeg Graphic file (type jpg)
+
+<use Figuras/fig2.jpeg>
+Package pdftex.def Info: Figuras/fig2.jpeg used on input line 158.
+(pdftex.def)             Requested size: 142.26378pt x 142.2529pt.
+ [3 <./Figuras/fig1.jpeg> <./Figuras/fig2.jpeg>] <Figuras/fig3.jpeg, id=22, 843.15pt x 843.15pt>
+File: Figuras/fig3.jpeg Graphic file (type jpg)
+
+<use Figuras/fig3.jpeg>
+Package pdftex.def Info: Figuras/fig3.jpeg used on input line 170.
+(pdftex.def)             Requested size: 170.71652pt x 170.7112pt.
+ <Figuras/fig8.jpeg, id=23, 843.15pt x 843.15pt>
+File: Figuras/fig8.jpeg Graphic file (type jpg)
+ <use Figuras/fig8.jpeg>
+Package pdftex.def Info: Figuras/fig8.jpeg used on input line 172.
+(pdftex.def)             Requested size: 170.71652pt x 170.7112pt.
+
+<Figuras/fig4.jpeg, id=24, 843.15pt x 843.15pt>
+File: Figuras/fig4.jpeg Graphic file (type jpg)
+ <use Figuras/fig4.jpeg>
+Package pdftex.def Info: Figuras/fig4.jpeg used on input line 182.
+(pdftex.def)             Requested size: 170.71652pt x 170.7112pt.
+ <Figuras/fig6.jpeg, id=25, 843.15pt x 843.15pt>
+File: Figuras/fig6.jpeg Graphic file (type jpg)
+
+<use Figuras/fig6.jpeg>
+Package pdftex.def Info: Figuras/fig6.jpeg used on input line 184.
+(pdftex.def)             Requested size: 170.71652pt x 170.7112pt.
+ [4 <./Figuras/fig3.jpeg> <./Figuras/fig8.jpeg> <./Figuras/fig4.jpeg> <./Figuras/fig6.jpeg>]
+<Figuras/fig5.jpeg, id=29, 843.15pt x 843.15pt>
+File: Figuras/fig5.jpeg Graphic file (type jpg)
+ <use Figuras/fig5.jpeg>
+Package pdftex.def Info: Figuras/fig5.jpeg used on input line 197.
+(pdftex.def)             Requested size: 170.71652pt x 170.7112pt.
+ <Figuras/fig7.jpeg, id=30, 843.15pt x 843.15pt>
+File: Figuras/fig7.jpeg Graphic file (type jpg)
+
+<use Figuras/fig7.jpeg>
+Package pdftex.def Info: Figuras/fig7.jpeg used on input line 199.
+(pdftex.def)             Requested size: 170.71652pt x 170.7112pt.
+ [5 <./Figuras/fig5.jpeg> <./Figuras/fig7.jpeg>]
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 218.
+LaTeX Font Info:    No file TS1aer.fd. on input line 218.
+
+
+LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textbullet' on input line 218.
+
+LaTeX Font Info:    Try loading font information for TS1+aett on input line 250.
+LaTeX Font Info:    No file TS1aett.fd. on input line 250.
+
+LaTeX Font Warning: Font shape `TS1/aett/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textquotesingle' on input line 250.
+
+Package microtype Info: Loading generic settings for font family
+(microtype)             `aett' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+[6]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7] <Figuras/fig24.jpeg, id=46, 843.15pt x 843.15pt>
+File: Figuras/fig24.jpeg Graphic file (type jpg)
+ <use Figuras/fig24.jpeg>
+Package pdftex.def Info: Figuras/fig24.jpeg used on input line 324.
+(pdftex.def)             Requested size: 170.71652pt x 170.7112pt.
+
+<Figuras/fig23.jpeg, id=47, 843.15pt x 843.15pt>
+File: Figuras/fig23.jpeg Graphic file (type jpg)
+ <use Figuras/fig23.jpeg>
+Package pdftex.def Info: Figuras/fig23.jpeg used on input line 326.
+(pdftex.def)             Requested size: 170.71652pt x 170.7112pt.
+
+<Figuras/fig26.jpeg, id=48, 843.15pt x 843.15pt>
+File: Figuras/fig26.jpeg Graphic file (type jpg)
+ <use Figuras/fig26.jpeg>
+Package pdftex.def Info: Figuras/fig26.jpeg used on input line 337.
+(pdftex.def)             Requested size: 170.71652pt x 170.7112pt.
+
+<Figuras/fig27.jpeg, id=49, 843.15pt x 843.15pt>
+File: Figuras/fig27.jpeg Graphic file (type jpg)
+ <use Figuras/fig27.jpeg>
+Package pdftex.def Info: Figuras/fig27.jpeg used on input line 339.
+(pdftex.def)             Requested size: 170.71652pt x 170.7112pt.
+ [8 <./Figuras/fig24.jpeg> <./Figuras/fig23.jpeg>] <Figuras/fig11.jpeg, id=53, 843.15pt x 843.15pt>
+File: Figuras/fig11.jpeg Graphic file (type jpg)
+ <use Figuras/fig11.jpeg>
+Package pdftex.def Info: Figuras/fig11.jpeg used on input line 355.
+(pdftex.def)             Requested size: 170.71652pt x 170.7112pt.
+
+<Figuras/fig12.jpeg, id=54, 843.15pt x 843.15pt>
+File: Figuras/fig12.jpeg Graphic file (type jpg)
+ <use Figuras/fig12.jpeg>
+Package pdftex.def Info: Figuras/fig12.jpeg used on input line 357.
+(pdftex.def)             Requested size: 170.71652pt x 170.7112pt.
+ [9 <./Figuras/fig26.jpeg> <./Figuras/fig27.jpeg> <./Figuras/fig11.jpeg> <./Figuras/fig12.jpeg>] (Artigo.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+[]\T1/aer/m/n/12 (+20) Homicídio é prin-ci-pal causa de mor-tes de jo-vens de 16 e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+\T1/aer/m/n/12 (+20) 17 no país.  $\T1/aett/m/n/12 http : / / g1 . globo . com / politica / noticia / 2015 / 06 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+\T1/aett/m/n/12 homicidio-[]e-[]principal-[]causa-[]de-[]mortes-[]de-[]jovens-[]de-[]16-[]e-[]17-[]no-[]pais .
+ []
+
+[10]) [11]
+Overfull \hbox (44.05142pt too wide) in paragraph at lines 416--416
+[]\T1/aett/m/n/12 #Os dados encontram-se em pasta pública do Dropbox e podem ser acessados via link[] 
+ []
+
+
+Overfull \hbox (49.29329pt too wide) in paragraph at lines 419--419
+[]\T1/aett/m/n/12 setwd("https://www.dropbox.com/sh/k4vrb56qmzi88gv/AADePL9ijO46Tdz3mFYmIoF6a?dl=0")[] 
+ []
+
+[12] [13] [14]
+Overfull \hbox (6.11761pt too wide) in paragraph at lines 559--559
+[]\T1/aett/m/n/12 mod11<- glm(formula = Y ~ ESC+I, family=binomial(link=logit), data = dados)[] 
+ []
+
+
+Overfull \hbox (18.45352pt too wide) in paragraph at lines 560--560
+[]\T1/aett/m/n/12 mod12<- glm(formula = Y ~ S+R+ESC, family=binomial(link=logit), data = dados)[] 
+ []
+
+
+Overfull \hbox (6.11761pt too wide) in paragraph at lines 561--561
+[]\T1/aett/m/n/12 mod13<- glm(formula = Y ~ S+R+I, family=binomial(link=logit), data = dados)[] 
+ []
+
+
+Overfull \hbox (18.45352pt too wide) in paragraph at lines 562--562
+[]\T1/aett/m/n/12 mod14<- glm(formula = Y ~ R+ESC+I, family=binomial(link=logit), data = dados)[] 
+ []
+
+
+Overfull \hbox (30.78943pt too wide) in paragraph at lines 563--563
+[]\T1/aett/m/n/12 mod15<- glm(formula = Y ~ S+R+ESC+I, family=binomial(link=logit), data = dados)[] 
+ []
+
+
+Overfull \hbox (55.46124pt too wide) in paragraph at lines 564--564
+[]\T1/aett/m/n/12 mod16<- glm(formula = Y ~ S+R+ESC+I+I*S, family=binomial(link=logit), data = dados)[] 
+ []
+
+
+Overfull \hbox (55.46124pt too wide) in paragraph at lines 565--565
+[]\T1/aett/m/n/12 mod17<- glm(formula = Y ~ S+R+ESC+I+I*R, family=binomial(link=logit), data = dados)[] 
+ []
+
+
+Overfull \hbox (67.79715pt too wide) in paragraph at lines 566--566
+[]\T1/aett/m/n/12 mod18<- glm(formula = Y ~ S+R+ESC+I+I*ESC, family=binomial(link=logit), data = dados)[] 
+ []
+
+[15]
+Overfull \hbox (4.26543pt too wide) in paragraph at lines 569--569
+[]\T1/aett/m/n/12 mod20<- glm(formula = Y ~ S+R+ESC+I+I*S+I*ESC, family=binomial(link=logit),[] 
+ []
+
+
+Overfull \hbox (4.26543pt too wide) in paragraph at lines 571--571
+[]\T1/aett/m/n/12 mod21<- glm(formula = Y ~ S+R+ESC+I+I*R+I*ESC, family=binomial(link=logit),[] 
+ []
+
+
+Overfull \hbox (41.27315pt too wide) in paragraph at lines 583--583
+[]\T1/aett/m/n/12 anova(mod1,mod2,mod3,mod4,mod5,mod6,mod7,mod8,mod9,mod10,mod11,mod12,mod13,mod14,[] 
+ []
+
+
+Overfull \hbox (30.78943pt too wide) in paragraph at lines 584--584
+[]\T1/aett/m/n/12 mod15,mod16,mod17,mod18,mod19,mod20,mod21,mod22,mod23,mod24,mod25,test="Chisq")[] 
+ []
+
+
+Overfull \hbox (4.26543pt too wide) in paragraph at lines 589--589
+[]\T1/aett/m/n/12 anova(mod1,mod2,mod3,mod4,mod5,mod6,mod7,mod8,mod9,mod10,mod11,mod12,mod13,[] 
+ []
+
+
+Overfull \hbox (59.77701pt too wide) in paragraph at lines 591--591
+[]\T1/aett/m/n/12 #O melhor modelo que possui deviance mais próxima do número de graus de liberdade é:[] 
+ []
+
+
+Overfull \hbox (28.93724pt too wide) in paragraph at lines 599--599
+[]\T1/aett/m/n/12 search.1.aicc<-glmulti(y=Y ~.,data=dados, fitfunction="glm",level=1,method="h",[] 
+ []
+
+[16]
+Overfull \hbox (7.3524pt too wide) in paragraph at lines 608--608
+[]\T1/aett/m/n/12 #Por meio do método de seleção abaixo podemos tentar achar um melhor modelo[] 
+ []
+
+
+Overfull \hbox (41.27315pt too wide) in paragraph at lines 612--612
+[]\T1/aett/m/n/12 forw.sel<-step(object=empty.mod, scope=list(upper=full.mod), direction="forward",[] 
+ []
+
+
+Overfull \hbox (41.27315pt too wide) in paragraph at lines 618--618
+[]\T1/aett/m/n/12 back.sel<-step(object=full.mod,scope=list(lower=empty.mod), direction="backward",[] 
+ []
+
+
+Overfull \hbox (41.27315pt too wide) in paragraph at lines 631--631
+[]\T1/aett/m/n/12 search.1.bic<-glmulti(y=Y ~., data=dados, fitfunction="glm", level=1, method="h",[] 
+ []
+
+
+Overfull \hbox (18.45352pt too wide) in paragraph at lines 638--638
+[]\T1/aett/m/n/12 colnames(parms)<-c("Estimate","Variance","n.Models","Probability","95%CI+/-")[] 
+ []
+
+[17]
+Overfull \hbox (30.78943pt too wide) in paragraph at lines 651--651
+[]\T1/aett/m/n/12 bestfit=glm(formula = Y ~ S+R+ESC+I, family=binomial(link=logit), data = dados)[] 
+ []
+
+
+Overfull \hbox (18.45352pt too wide) in paragraph at lines 670--670
+[]\T1/aett/m/n/12 roc(bestfit$y,bestfit$fitted.values,plot=T,ci=T,identity=TRUE,print.auc=TRUE)[] 
+ []
+
+
+Overfull \hbox (24.62148pt too wide) in paragraph at lines 674--674
+[]\T1/aett/m/n/12 plot(v,type="h",ylim=c(0,ifelse(max(v)<10,12,max(v)*1.1)),xaxt="n",ylab="VIF")[] 
+ []
+
+
+Overfull \hbox (41.27315pt too wide) in paragraph at lines 676--676
+[]\T1/aett/m/n/12 legend("top",legend=c("Possível Multicolinearidade","Multicolinearidade severa"),[] 
+ []
+
+[18] [19] (Artigo.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 7938 strings out of 493673
+ 117585 string characters out of 3143960
+ 213924 words of memory out of 3000000
+ 10713 multiletter control sequences out of 15000+200000
+ 82227 words of font info for 405 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 36i,11n,43p,587b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-
+super-ts1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/
+usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on Artigo.pdf (19 pages, 1504870 bytes).
+PDF statistics:
+ 136 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 52295 words of extra memory for PDF output out of 61914 (max. 10000000)
+
