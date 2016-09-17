@@ -2,8 +2,7 @@ rm(list=ls())
 gc(reset=TRUE)
 
 
-#setwd("~/Dropbox/Arquivos Gerais/Doutorado/Modelos_Lineares_Generalizados/trabalhos/Trabalho_MLG/Homicidios")
-
+setwd("~/GitHub/Analise-DATASUS")
 require(gdata)
 require(foreign)
 require(ggplot2)
@@ -109,6 +108,40 @@ cdplot(Y1 ~ S, data = dados)
 #Possíveis modelos
 ###################################
 
+source("misc-fun.R")
+model.log <- glm(formula = Y ~ S+R+ESC+I,
+                 family = binomial(link = "logit"), data = dados)
+
+model.prob <- glm(formula = Y ~ S+R+ESC+I,
+                  family = binomial(link = "probit"), data = dados)
+
+model.clog <- glm(formula = Y ~ S+R+ESC+I,
+                  family = binomial(link = "cloglog"), data = dados)
+
+model.cauc <- glm(formula = Y ~ S+R+ESC+I,
+                  family = binomial(link = "cauchit"), data = dados)
+
+par(mfrow=c(1,4))
+envelope(model.log)
+title("Ligação Logit")
+envelope(model.prob)
+title("Ligação Probit")
+envelope(model.clog)
+title("Ligação Complemento Log-Log")
+envelope(model.cauc)
+title("Ligação Cauchit")
+
+
+mod1<- glm(formula = Y ~ 1, family=binomial(link=logit), data = dados)
+mod2<- glm(formula = Y ~ S, family=binomial(link=logit), data = dados)
+mod3<- glm(formula = Y ~ R, family=binomial(link=logit), data = dados)
+mod4<- glm(formula = Y ~ ESC, family=binomial(link=logit), data = dados)
+mod5<- glm(formula = Y ~ I, family=binomial(link=logit), data = dados)
+summary(mod1)
+summary(mod2)
+summary(mod3)
+summary(mod4)
+summary(mod5)
 
 
 #mod1<- glm(formula = Y ~ 1, family=binomial(link=logit), data = dados)
