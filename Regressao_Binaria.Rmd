@@ -241,13 +241,12 @@ bx=plot(w.n[,1],w.n[,7],ylab="Proporção",xlab="", names= c("masculino","femini
 #Ajuste do Melhor Modelo de Regressão Logística e Seleção de Variáveis
 
 <p style="text-align: justify;">
-Após a descrição e exploração dos dados é necessário buscar a seleção de variáveis que melhor explicam a variável dependente, a seleção será realizada pelo algoritmo \textit{stepwise} considerando como critério de seleção o AIC
-(Critério de Informação de Akaike), poderia ser usado também o método \textit{forward} ou o método \textit{backward}.
+Após a descrição e exploração dos dados é necessário buscar a seleção de variáveis que melhor explicam a variável dependente, a seleção será realizada pelo algoritmo *stepwise* considerando como critério de seleção o AIC (Critério de Informação de Akaike), poderia ser usado também o método *forward* ou o método *backward*.
 </p>
 
 <p style="text-align: justify;">
 Considerou-se como modelo completo o modelo aditivo com todos
-os efeitos principais e todas as interações duplas somando ao todo 10 parâmetros. Os modelos com interações três a três e com a interação quatro a quatro tiveram problemas de convergência para o método \textit{stepwise} e por isso não foram considerados.
+os efeitos principais e todas as interações duplas somando ao todo 10 parâmetros. Os modelos com interações três a três e com a interação quatro a quatro tiveram problemas de convergência para o método *stepwise* e por isso não foram considerados.
 </p>
 
 ```{r,echo=TRUE}
