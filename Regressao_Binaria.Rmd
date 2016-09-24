@@ -59,22 +59,23 @@ As descrições das codificações estão na tabela abaixo:
             \textrm{Y}&  0&  \textrm{Morte registrada como causas distintas de homicídio}\\
                       &  1&  \textrm{Morte registrada como homicídio}\\
 											\hline
-       \textrm{S}     &  1&  \textrm{Masculino}\\
+       \textrm{S}     &  1*&  \textrm{Masculino}\\
                       &  2&  \textrm{Feminino}\\
 											\hline
-       \textrm{R}     &  1&  \textrm{Raça/Cor Branca}\\
+       \textrm{R}     &  1*&  \textrm{Raça/Cor Branca}\\
                       &  2&  \textrm{Raça/Cor Negra}\\
                       &  4&  \textrm{Raça/Cor Parda}\\
                       &  5&  \textrm{Raça/Cor Indígena}\\
 											\hline
-        \textrm{ESC}  &  1&  \textrm{Nenhum estudo}\\
+        \textrm{ESC}  &  1*&  \textrm{Nenhum estudo}\\
                       &  2&  \textrm{1 a 3 anos de estudo}\\
                       &  3&  \textrm{4 a 7 anos de estudo}\\
                       &  4&  \textrm{8 a 11 anos de estudo}\\
                       &  5&  \textrm{12 ou mais anos de estudo}\\
 											\hline
-          \textrm{I}  & \textrm{Idade (Contínua)} &\textrm{15 a 17 anos} \\
-					\hline
+\textrm{I}  & \textrm{Idade (Contínua)} &\textrm{15 a 17 anos} \\
+\hline
+\textrm{*Categorias de Referência}
 \end{array}
 
 
@@ -97,8 +98,8 @@ Assim, temos:
 </p>
 
 \begin{align*}
-  Y_i \sim Binomial& (n, \pi_i)\\
-  g(\pi_i) = \beta_{0} + \beta_{1}&x_{1i} + \beta_{2}x_{2i} + \dots +
+  Y_i &\sim& Binomial (n, \pi_i)\\
+  g(\pi_i) &=& \beta_{0} + \beta_{1}&x_{1i} + \beta_{2}x_{2i} + \dots +
   \beta_{p}x_{pi}
 \end{align*}
 
@@ -203,6 +204,7 @@ bp=barplot(table(Y,ESC), args.legend = list(x = "topleft",bty = "n"), ylim=c(0, 
 text(bp, table(Y,ESC)+150, table(Y,ESC))
 ```
 
+<!--
 <p style="text-align: justify;">
 No box-plot seguinte é possível constatar que a mediana da proporção de mortes de jovens em relação ao tempo de escolaridade tem uma semelhança dos indivíduos de 1 a 3 anos de estudo com os indivíduos com nenhum ano de estudo, provavelmente, o parâmetro de ESC2 não será significativo.
 </p>
@@ -237,6 +239,7 @@ Box-plot da Proporção de pessoas assassinadas em relação ao Sexo:
 bx=plot(w.n[,1],w.n[,7],ylab="Proporção",xlab="", names= c("masculino","feminino"), main="Box-plot das  pessoas assassinadas em Minas Gerais \n no ano de 2013 por Sexo")
 ```
 
+-->
 
 #Ajuste do Melhor Modelo de Regressão Logística e Seleção de Variáveis
 
@@ -480,7 +483,7 @@ Como entre as covariáveis, somente a idade é continua, porém com três valore
 
 <p style="text-align: justify;">
 Com o modelo especificado e avaliado podemos realizar predições e
-interpretações. Utilizando as estimativas dos parâmetros, podemos encontrar os valores da *Odds Ratio* do modelo e os respectivos intervalos de confiança dos parâmetros do modelo.
+interpretações. Utilizando as estimativas dos parâmetros, podemos encontrar os valores da *Odds Ratio* do modelo e os respectivos intervalos de confiança dos parâmetros do modelo. As categorias de referência foram, sexo masculino, Raça/Cor branca e nível de escolaridade nenhum estudo.
 </p>
 
 
@@ -506,7 +509,7 @@ interpretações. Utilizando as estimativas dos parâmetros, podemos encontrar o
 Após o ajuste do modelo, pode-se usá-lo para estimar a probabilidade de um indivíduo que morreu, ter sido assassinado, a partir de:
 </p>
 \begin{eqnarray}
-\hat{\pi} = \frac{exp(-3.54-0.72(S2)+0.64(R2)+\cdots-0.87(ESC4)-2.14(ESC5)+0.23I)}{1+exp(-3.54-0.72(S2)+0.64(R2)+\cdots-0.87(ESC4)-2.14(ESC5)+0.23I)},
+\hat{\pi} = \frac{\exp(-3.54-0.72S2+0.64R2+\cdots-0.87ESC4-2.14ESC5+0.23I)}{1+exp(-3.54-0.72S2+0.64R2+\cdots-0.87ESC4-2.14ESC5+0.23I)},
 \end{eqnarray}
 
 <p style="text-align: justify;">
@@ -535,8 +538,14 @@ Pode-se verificar ainda que:
   -  A chance de um indivíduo do sexo feminino ser assassinado é 52% menor que a chance de um indivíduo do sexo masculino;
   -  A mudança de uma unidade na idade altera em 25% o logito do modelo. 
 
-```{r,echo=TRUE}
+#Exemplo de poster deste trabalho em PDF e tex
 
-```
+  - Poster em pdf 
+
+[clique aqui](https://github.com/fsbmat/fsbmat.github.io/blob/master/blog_posts/17-09-2016/MgEst_Poster.pdf)
+
+  - Poster em tex 
+
+[clique aqui](https://github.com/fsbmat/fsbmat.github.io/blob/master/blog_posts/17-09-2016/MgEst_Poster.tex)
 
 #Referências
