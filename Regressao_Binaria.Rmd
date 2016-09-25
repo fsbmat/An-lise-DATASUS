@@ -22,7 +22,9 @@ bibliography: referencia.bib
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE,fig.align = "center")
+require(knitr)
+require(kfigr)
+knitr::opts_chunk$set(echo = TRUE,fig.align = "center",message=FALSE, warning=FALSE)
 ```
 
 #Introdução
@@ -34,7 +36,7 @@ Neste contexto, diversas são as notícias de violência cometida pelos jovens e
 @zeroum e @Jacobo, o Brasil ocupa o terceiro lugar em relação a 85 países no ranking de mortes de adolescentes de 15 a 19 anos, perdendo apenas para México e El Salvador. São 54,9 mortes a cada 100 mil jovens. Na faixa de 16 e 17 anos, a taxa de mortalidade ficou em 54,1 homicídios por 100 mil adolescentes em 2013, um aumento de 2,7% em relação a 2012 e de 38,3% na década.
 </p>
 <p style="text-align: justify;">
-De acordo com @Jacobo, o homicídio é uma das principais causas de mortes de adolecentes de 16 a 17 anos no país e quando se faz uma análise dos dados de Minas Gerais do sistema de mortalidade do Datasus, conforme imagem (a) da figura $\ref{fig1},$ é possível notar que o maior número de assassinatos ocorre aos 17 anos de idade. Neste sentido, o presente trabalho tem a finalidade de caracterizar o perfil quanto a estado civil, escolaridade, sexo, raça/cor e idade (15 a 17 anos) dos jovens que morreram assassinados no estado de Minas Gerais no ano de 2013.
+De acordo com @Jacobo, o homicídio é uma das principais causas de mortes de adolecentes de 16 a 17 anos no país e quando se faz uma análise dos dados de Minas Gerais do sistema de mortalidade do Datasus, conforme `r figr("fig1", TRUE, type="Figura")` é possível notar que o maior número de assassinatos ocorre aos 17 anos de idade. Neste sentido, o presente trabalho tem a finalidade de caracterizar o perfil quanto a estado civil, escolaridade, sexo, raça/cor e idade (15 a 17 anos) dos jovens que morreram assassinados no estado de Minas Gerais no ano de 2013.
 </p>
 #Material e Métodos
 
@@ -97,27 +99,25 @@ A análise será feita com o objetivo de analisar a relação entre uma variáve
 Assim, temos:
 </p>
 
-\begin{align*}
+\begin{eqnarray*}
   Y_i &\sim& Binomial (n, \pi_i)\\
-  g(\pi_i) &=& \beta_{0} + \beta_{1}&x_{1i} + \beta_{2}x_{2i} + \dots +
+  g(\pi_i) &=& \beta_{0} + \beta_{1}x_{1i} + \beta_{2}x_{2i} + \dots +
   \beta_{p}x_{pi}
-\end{align*}
+\end{eqnarray*}
 
 
 <p style="text-align: justify;">
 Sendo $Y$ a variável resposta, $x_{1i}, x_{2i}, \dots, x_{ni}$ as i-ésimas realizações das respectivas variáveis explicativas $X_1, X_2, \dots, X_n$ e $g(\pi_i)$ e a função de ligação, funções citadas acima. Como houve indivíduos com o mesmo conjunto de covariáveis considera-se o número de repetições igual a $n$ para a distribuição de $Y_{i}.$
 </p>
 
-
 ##Estatística Descritiva dos Dados
-
 
 <p style="text-align: justify;">
 No gráfico abaixo temos a proporção de pessoas assassinadas por idade, dos 10 aos 60 anos. Note que o número de homicídios aumenta até os 17 anos e a partir dai começa a diminuir lentamente, haja visto que a morte por assassinato dos 15 aos 17 anos é superior a morte causada por outras causas, como 
 pode ser verificado no segundo gráfico. 
 </p>
 
-```{r,echo=TRUE}
+```{r fig1,echo=TRUE,anchor="Figura"}
 dados2=read.table("Dados_Completos_a_partir_dos_dez.txt",header=TRUE)
 attach(dados2)
 
@@ -134,8 +134,10 @@ rm(dados2)
 Os dados abaixo apresentam a quantidade de indíviduos em cada categoria das respectivas variáveis estudadas.
 </p>
 
+<!--Para referenciar a tabela summary do próximo chunk use o código abaixo-->
+<!--`r figr("tab2", TRUE, type="table")`-->
 
-```{r, echo=TRUE,message=FALSE,}
+```{r tab2, echo=TRUE,message=FALSE,anchor="tabela", results='asis'}
 setwd("~/GitHub/Analise-DATASUS")
 dados=read.table("15_17.txt",header=TRUE)
 attach(dados)
@@ -144,41 +146,38 @@ dados=transform(R=factor(R),ESC=factor(ESC),S=factor(S),dados)
 #head(dados)
 
 #Estatística Descritiva dos dados
-summary(dados)
+kable(summary(dados),format = "markdown",digits = 2, padding = 3)
 ```
 
 <p style="text-align: justify;">
 Nas duas figuras abaixo podemos constatar o que se pode chamar de uma tragédia estadual, morrem mais jovens com idade entre 15 e 17 anos assassinados no estado de Minas Gerais do que devido a outras causas. 
 </p>
 
-```{r, echo=TRUE,message=FALSE,}
+```{r fig2,echo=TRUE,anchor="Figura"}
 tb <- table(dados$Y)
 names(tb)<- c("Outras causas", "Assasinados")
 bp <- barplot(tb, beside = T, las = 1, xlab = 'discriminação das mortes',
-              ylab = 'Frequência', , ylim = c(0, 4000), main="Quantidade de jovens entre 15 e 17 anos \n que morreram em 2013 em Minas Gerais")
+              ylab = 'Frequência', , ylim = c(0, 4000), main="Quantidade de jovens com idades entre 15 e 17 anos \n que morreram em 2013 no Estado de Minas Gerais")
 text(x = c(bp), y = c(tb), labels = tb, pos = 3)
 title(sub="(a)")
 
 ```
 
-
-
-```{r,echo=TRUE}
+```{r fig3,echo=TRUE,anchor="Figura"}
 #Note que as mortes por assassinato superam as mortes por outras causas
 
 bp=barplot(table(Y,I), beside=T, leg=c("Morte por outra causa", "Homicidío" ),
-           args.legend = list(x = "topleft",bty = "n"),ylim=c(0, 2000), ylab="Quantidade", xlab="Idade", main="Número de pessoas que morreram em 2013 \n no Estado de Minas Gerais aos 15,16 e 17 anos")
+           args.legend = list(x = "topleft",bty = "n"),ylim=c(0, 2000), ylab="Quantidade", xlab="Idade", main="Quantidade de jovens com idades entre 15 e 17 anos \n que morreram em 2013 no Estado de Minas Gerais")
 text(bp, table(Y,I)+100, table(Y,I))
 ```
-
 
 <p style="text-align: justify;">
 O gráfico abaixo mostra o número de jovens de 15 a 17 anos, discriminados por sexo, que morreram por motivos distintos de homicídio e por homicídio. Note que o número de jovens, do sexo masculino, nesta faixa etária que morrem assassinados, é maior do que o número de jovens que morrem por outras causas. 
 </p>
 
-```{r,echo=TRUE}
+```{r fig4,echo=TRUE,anchor="Figura"}
 bp=barplot(table(Y,S),ylim=c(0, 3500), beside=T,leg=c("Morte por outra causa", "Homicidío" ),
-           ylab="Quantidade", xlab="",names.arg = c("masculino","feminino"), main="Número de pessoas que morreram em 2013 \n no Estado de Minas Gerais por sexo")
+           ylab="Quantidade", xlab="Gênero",names.arg = c("masculino","feminino"), main="Quantidade de jovens com idades entre 15 e 17 anos \n que morreram em 2013 no Estado de Minas Gerais \n discriminados por Gênero")
 text(bp, table(Y,S)+150, table(Y,S))
 ```
 
@@ -186,10 +185,10 @@ text(bp, table(Y,S)+150, table(Y,S))
 <p style="text-align: justify;">
 O gráfico abaixo mostra o número de jovens de 15 a 17 anos, discriminados por raça/cor, que morreram por motivos distintos de homicídio e por homicídio. Note que o número de jovens, de cor negra e/ou parda, nesta faixa etária que morrem assassinados, é maior do que o número de jovens que morrem por outras causas. 
 </p>
-```{r,echo=TRUE}
+```{r fig5,echo=TRUE,anchor="Figura"}
 #barplot(table(Y,R))
 bp=barplot(table(Y,R),args.legend = list(x = "topleft",bty = "n"), ylim=c(0, 2500), beside=T,leg=c("Morte por outra causa", "Homicidío" ),
-           ylab="Quantidade", xlab="Raça/Cor",names.arg = c("Branco","Negro","Pardo","Indígena"), main="Número de pessoas que morreram em 2013 \n no Estado de Minas Gerais por Raça/Cor")
+           ylab="Quantidade", xlab="Raça/Cor",names.arg = c("Branco","Negro","Pardo","Indígena"), main="Quantidade de jovens com idades entre 15 e 17 anos \n que morreram em 2013 no Estado de Minas Gerais \n discriminados por Raça/Cor")
 text(bp, table(Y,R)+150, table(Y,R))
 ```
 
@@ -198,9 +197,9 @@ text(bp, table(Y,R)+150, table(Y,R))
 A grande maioria dos jovens de 15 a 17 anos que morreram assassinadas em Minas Gerais no ano de 2013 tinham somente de 1 a 7 anos de estudo, como mostra o gráfico abaixo.
 </p>
 
-```{r,echo=TRUE}
+```{r fig6,echo=TRUE,anchor="Figura"}
 bp=barplot(table(Y,ESC), args.legend = list(x = "topleft",bty = "n"), ylim=c(0, 2500), beside=T,leg=c("Morte por outra causa", "Homicidío" ),
-           ylab="Quantidade", xlab="Escolaridade",names.arg = c("Nenhum","1 a 3","4 a 7","8 a 11","12 ou mais"), main="Número de pessoas que morreram em 2013 \n no Estado de Minas Gerais por anos de estudo")
+           ylab="Quantidade", xlab="Escolaridade",names.arg = c("Nenhum","1 a 3","4 a 7","8 a 11","12 ou mais"), main="Quantidade de jovens com idades entre 15 e 17 anos \n que morreram em 2013 no Estado de Minas Gerais \n discriminados por escolaridade")
 text(bp, table(Y,ESC)+150, table(Y,ESC))
 ```
 
@@ -264,19 +263,15 @@ step(glm(formula = Y ~ S+R+ESC+I+S*R+S*ESC+S*I+R*ESC+R*I+ESC*I, family=binomial(
 O algoritmo com diferentes funções de ligação resultou no mesmo conjunto de variáveis, são elas: idade do indivíduo, raça/cor, escolaridade e sexo. O resultado do algoritmo é coerente com os gráficos apresentados anteriormente, pois todas as variáveis diferem dentre suas categorias em relação a discriminação da morte. Portanto, no decorrer deste trabalho a análise seguirá com o modelo abaixo.
 </p>
 
-\begin{equation*}
-  \begin{gathered}
-    Y_i \sim Binomial (n, \widehat{\pi_i})\\
-    g(\widehat{\pi_i}) = \widehat{\beta_{0}} +
+\begin{eqnarray}
+    Y_i &\sim& Binomial (n, \widehat{\pi_i})\\
+    g(\widehat{\pi_i}) &=& \widehat{\beta_{0}} +
     \widehat{\beta_{1}}sexo_{i} + \widehat{\beta_{2}}raça_{i}+\widehat{\beta_{3}}Escolaridade_{i}+\widehat{\beta_{4}}Idade_{i}
-  \end{gathered}
-\end{equation*}
+\end{eqnarray}
 
 <p style="text-align: justify;">
 Sendo as categorias determinadas conforme tabela 1 apresentada anteriormente.
 </p>
-
-
 
 Outras formas de escolha do melhor modelo são:
 
@@ -343,7 +338,7 @@ title("Ligação Cauchit")
 Para verificar a qualidade do modelo ajustado, foi realizada a análise gráfica da curva ROC, como mostra a figura abaixo. 
 </p>
 
-```{r,echo=TRUE}
+```{r fig7,echo=TRUE,anchor="Figura"}
 library(pROC)
 roc(model.log$y,model.log$fitted.values,plot=T,ci=T,identity=TRUE,print.auc=TRUE)
 roc(model.prob$y,model.prob$fitted.values,plot=T,ci=T,identity=TRUE,print.auc=TRUE)
@@ -549,3 +544,4 @@ Pode-se verificar ainda que:
 [clique aqui](https://github.com/fsbmat/fsbmat.github.io/blob/master/blog_posts/17-09-2016/MgEst_Poster.tex)
 
 #Referências
+
